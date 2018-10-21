@@ -1,0 +1,12 @@
+@import 'style/imports/import';
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+html, body {
+  height:100%;
+}
+
+body {
+  background-image: linear-gradient(to top, #141E30 0%, #243B55 100%);
+  color:white;
+  font-family: 'Ubuntu', sans-serif;
+}
