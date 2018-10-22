@@ -12,18 +12,9 @@ class App extends Component {
           </div>
         </div>
         <div className="row">
-          <MusicButton name="DAVIIIIIIIID" />
-          <MusicButton />
-          <MusicButton />
-          <MusicButton />
-          <MusicButton />
-          <MusicButton />
-          <MusicButton />
-          <MusicButton />
-          <MusicButton />
-          <MusicButton />
-          <MusicButton />
-          <MusicButton />
+          <MusicButton id={1} name="DAVIIIIIIIID" src="sons/DAVIIIIID.mp3" />
+          <MusicButton id={2} name="Tu mérites pas le Bear Studio" src="sons/merite.mp3" />
+          <MusicButton id={3} name="POPOPOOOOOOO" src="sons/popopoooo.mp3" />
         </div>
       </div>
     );
